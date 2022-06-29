@@ -31,7 +31,7 @@ app.use(cors())
 
 
 /* Connect to database */
-const databaseURI = "mongodb+srv://torrezsae:Pork2mes!@cluster0.l4l1b.mongodb.net/Cluster0?retryWrites=true&w=majority"
+const databaseURI = "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 const client = new mongodb(databaseURI, { useNewUrlParser: true, useUnifiedTopology: true })
 const database = client.db("Cluster0")
 
