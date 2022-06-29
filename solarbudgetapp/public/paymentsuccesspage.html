@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Payment Success</title>
+    <meta name="description" content="A demo of a card payment on Stripe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://js.stripe.com/v3/" defer></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/paymentsuccesspage.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-210395986-1">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-210395986-1');
+    </script>
+  </head>
+
+  
+  <body style="padding: 0;" class="justify-content-center">
+
+    <div class="container-fluid justify-content-center vh-100">
+      <div class="row text-center align-content-center d-flex h-100">
+        <h1 class="pb-5">Payment Succeeded!</h1>
+        <h4 class="p-4">Please wait while you're redirected back to the app...</h4>
+        <p>If it has been longer than 5 seconds click <a href='loginpage.html'>here</a></p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

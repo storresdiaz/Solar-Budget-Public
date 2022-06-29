@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Accept a card payment</title>
+    <meta name="description" content="A demo of a card payment on Stripe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/global.css" />
+    <script src="https://js.stripe.com/v3/" defer></script>
+    <script src="js/paymentpage.js" defer></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-210395986-1">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-210395986-1');
+    </script>
+  </head>
+
+  
+
+  <body style="padding: 0;" class="justify-content-center">
+
+    
+
+    <!-- Display a payment form -->
+    <div class="container-fluid justify-content-center">
+      <div class="row text-center p-5">
+        <h1>Looks like your membership has expired.</h1>
+      </div>
+      
+      <div class="row p-2 m-2 rounded-3 shadow justify-content-center" style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">
+        <p style="font-weight:500;" class="m-2">Does this sound like you?</p>
+        <ul class="ms-5 mt-2">
+          <li><p><i>" I don't know where my money went. "</i></p></li>
+          <li><p><i>" I feel overwhelmed with my finances. "</i></p></li>
+          <li><p><i>" I just wish budgets weren't so constricting. "</i></p></li>
+          <li><p><i>" I am exhausted. I go to sleep ,go to work, and then do it all again every day."</i></p></li>
+        </ul>
+        <p>Solar Budget can help ease your stress. Our easy to use program uses your income and expenses to generate a straightforward plan month by month.</p>
+        <p class='m-4 text-center'>Start your journey towards financial freedom for just <b>$9.99 per Year</b></p>
+        <form id="payment-form" class="form-control m-4 w-100">
+
+          <p class="mt-4" style="font-size: x-small; font-weight: 600;"><img src="assets/climatebadge.svg"> Solar Budget will contribute 10% of your purchase to remove CO₂ from the atmosphere.</p>
+          <div class="p-3 mt-2" id="card-element">
+            <!-- Elements will create input elements here -->
+          </div>
+          <!-- We'll put the error messages in this element -->
+          <div id="card-errors" role="alert"></div>
+         
+          <button id="submit">Pay Now</button>
+          <p style="font-size:small;" class="mt-1 ms-2">Your card will be charged $9.99 for a full year of membership.</a></p>
+        </form>  
+      </div>
+
+      <div class="row justify-content-center p-3 m-2">
+        
+      </div>
+
+      
+      <div class="modal" id="modalLoading" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form id="modalForm">
+                        <div id="modalGif" class="mb-3 mt-4">
+                            <img src="assets/planetgif.gif">
+                        </div>
+                        <div class="mb-3 mt-4">
+                            <h3>Working...</h3>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

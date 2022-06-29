@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+            <title>Main App | Solar Budget</title>
+            <meta name="description" content="Manage your finances and track your account.">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="css/appmain.css" rel="stylesheet">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous" defer></script>
+            <script src="js/jquery-3.6.0.min.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-210395986-1">
+        </script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-210395986-1');
+        </script>
+        </head>
+
+        <body>
+
+        
+        <div id="app-tutorial" class="container-fluid p-4 text-center vh-100" style="background-color: rgb(31, 31, 31); color: white; display: none;">
+                <h1 id="tutorial-prompt" class="p-4">Hi there. Let's setup your plan. Don't worry if you accidentally skip a question, you'll be able to change everything later.</h1>
+                <input type="number" id="tutorial-input" style="display: none;">
+                <button id="buttonNext" class="btn btn-primary p-2 m-2">Next</button>
+        </div>
+
+        
+
+        <div id="app-main" class="container-fluid itemContainer p-4" style="background-color: rgb(31, 31, 31);">
+
+            <div class="row mt-1 mb-2 pb-4 mx-auto align-items-center justify-content-center w-100">
+                <div class="col text-center">
+                    <img src="assets/logowhitesmall.png">
+                </div>
+                <div class="row mt-4 w-100">
+                    <div class="btn-toolbar mt-4 w-100" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group w-100" role="group" aria-label="First group">
+                            <button type="button" class="btn btn-secondary active">General</button>
+                            <button type="button" class="btn btn-secondary" id="buttonChecklist">Checklist</button>
+                            <button type='button' class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalAccount">Account</button>
+                        </div>   
+                    </div>
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row mb-4">
+                
+            </div>
+
+            <!--Start Of General Tab-->
+    <div id="generalTab">
+            <div id="debtFreeBanner" class="row rounded-3 p-2 shadow-sm" style="background-color: rgba(255,255,255,0.1); color: white;">
+                <h4 id="debtFreeText" class="my-auto">Months Until Debt Free: </h2>
+            </div>
+
+            <h3 class="mt-4" style="color: white; font-weight: 400;">Stats</h3>
+            <div id="General Stats" class="row rounded-3 shadow p-2 mt-2 d-flex h-auto" style="overflow-x: auto; color: white; background-color: rgba(255,255,255,0.1)">
+                <div class="row"><p id="statIncome">Total Income: </p></div>
+                <div class="row"><p id="statExpenses">Total Expenses: </p></div>
+                <div class="row"><p id="statRemainder">Remaining Monthly: </p></div>
+                <div class="row"><p id="statRemainderYearly">Remaining Yearly - Annual Expenses: </p></div>
+                <div class="row"><p id="statPercentage">Percentage of Expenses to Income: </p></div>
+            </div>
+
+            <h3 class="mt-4" style="color: white; font-weight: 400;">Balances</h3>
+            <div id="balances" class="row shadow rounded-3 p-2 mt-2" style="background-color: rgba(255,255,255,0.1); color: white;">
+                <div class="row"><p>Emergency Fund: <input type="text" class="form-control" id="balanceEmergencyFund"> </p></div>
+                <div class="row"><p>Annual Expense Fund: <input type="text" class="form-control" id="balanceAnnualExpense"> </p></div>
+                <div class="row"><p>Spendable Money: <input type="text" class="form-control" id="balanceSpending"> </p></div>
+                
+            </div>
+
+            <h3 class="mt-4" style="color: white; font-weight: 400;">Monthly Assignments</h3>
+            <div id="monthlyAssignment" class="row shadow rounded-3 p-2 mt-2" style="background-color: rgba(255,255,255,0.1); color: white;">
+                <div class="row"><p id="assignmentSpending">To Spendable Money: $0</p></div>
+                <div class="row"><p id="assignmentEmergency">To Emergency Fund: $0</p></div>
+                <div class="row"><p id="assignmentAnnualExpenses">To Annual Expense Fund: $0</p></div>
+                <div class="row"><p id="assignmentDebt">To Debt: </p></div>
+                <div class="row"><p>*Always assign your spending money first before continuing to the next assignment. Add the required amount to your annual expense fund second.
+                    Then assign towards your emergency fund until you have reached the maximum amount listed.
+                </p></div>
+            </div>
+
+            <h3 class="mt-4" style="color: white; font-weight: 400;">Monthly Income</h3>
+            <div id="incomes" class="row shadow rounded-3 p-2 mt-2" style="background-color: rgba(255,255,255,0.1); color: white;">
+                   <div class="row" id="incomesList">
+                    <div class="row w-auto">
+                        <button class="btn btn-secondary w-auto">Add Income</button>
+                    </div>  
+                   </div>      
+            </div>
+
+            <h3 class="mt-4" style="color: white; font-weight: 400;">Monthly Expenses</h3>
+            <div id="expenses" class="row shadow rounded-3 p-2 mt-2" style="background-color: rgba(255,255,255,0.1);">
+                <div class="row" id="expensesList">
+                    <div class="row w-auto">
+                        <button class="btn btn-secondary w-auto">Add Expense</button>
+                    </div>  
+                </div>    
+            </div>
+
+            <h3 class="mt-4" style="color: white; font-weight: 400;">Annual Expenses</h3>
+            <div id="annualExpenses" class="row shadow rounded-3 p-2 mt-2" style="background-color: rgba(255,255,255,0.1);">
+                <div class="row" id="annualExpensesList">
+                    <div class="row w-auto">
+                        <button class="btn btn-secondary w-auto">Add Annual Expense</button>
+                    </div>  
+                    
+                </div>    
+            </div>
+
+            <h3 class="mt-4" style="color: white; font-weight: 400;">Debts</h3>
+            <div id="debts" class="row shadow rounded-3 p-2 mt-2" style="background-color: rgba(255,255,255,0.1);">
+                <div class="row" id="debtsList">
+                    <div class="row w-auto">
+                        <button class="btn btn-secondary w-auto">Add Debt</button>
+                    </div>  
+                </div>    
+            </div>
+        </div> <!--End of Tab General-->
+
+            <div class="modal fade center" id="itemModal" tabindex="-1">
+                <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" id="modalButtonDelete" class="btn btn-danger" data-bs-dismiss="modal">Delete</button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="modalForm">
+                                <div class="mb-3 mt-4 debtInput">
+                                    <p id="nextPayoff">Next Payoff: </p>
+                                    <p><b>Be sure to also add your monthly payment to your expenses</b></p>
+                                </div>
+                                <div class="mb-3 mt-4">
+                                    <label for="nameModalInput" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="nameModalInput">
+                                </div>
+                                <div class="mb-3 mt-4">
+                                    <label for="amountModalInput" class="form-label">Amount</label>
+                                    <input type="number" class="form-control" id="amountModalInput">
+                                </div>
+                                <div class="mb-3 mt-4 debtInput">
+                                    <label for="aprModalInput" class="form-label">APR (Interest Rate)</label>
+                                    <input type="number" class="form-control" id="aprModalInput">
+                                </div>
+                                <div class="mb-3 mt-4 debtInput">
+                                    <label for="paymentModalInput" class="form-label">Monthly Payment</label>
+                                    <input type="number" class="form-control" id="paymentModalInput">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="modalButtonSave" data-bs-dismiss="modal">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="createItemModal" tabindex="-1">
+                <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                           <h3 id="createItemModalHeader">Add Item</h3>
+                        </div>
+                        <div class="modal-body">
+                            <form id="modalForm">
+                                <div class="mb-3 mt-4">
+                                    <label for="nameCreateModalInput" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="nameCreateModalInput">
+                                </div>
+                                <div class="mb-3 mt-4">
+                                    <label for="amountCreateModalInput" class="form-label">Amount</label>
+                                    <input type="number" class="form-control" id="amountCreateModalInput">
+                                </div>
+                                <div class="mb-3 mt-4">
+                                    <label for="aprCreateModalInput" class="form-label debtInput">APR (Interest Rate)</label>
+                                    <input type="number" class="form-control debtInput" id="aprCreateModalInput">
+                                </div>
+                                <div class="mb-3 mt-4">
+                                    <label for="paymentCreateModalInput" class="form-label debtInput">Monthly Payment</label>
+                                    <input type="number" class="form-control debtInput" id="paymentCreateModalInput">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="modalButtonCreate" data-bs-dismiss="modal">Create</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modalLoading" tabindex="-1">
+                <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <form id="modalForm">
+                                <div id="modalGif" class="mb-3 mt-4">
+                                    <img src="assets/planetgif.gif">
+                                </div>
+                                <div class="mb-3 mt-4">
+                                    <h3>Working...</h3>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalAccount" tabindex="-1">
+                <div class="vertical-alignment-helper">
+                <div class="modal-dialog vertical-align-center">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn btn-danger" id="logoutButton">Logout</button>
+                            <button type="button" class="close btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">X</button>
+                          </div>
+                        <div class="modal-body">
+                            <form id="modalForm">
+                                <div class="mb-3 mt-4 p-2 text-center">
+                                    <h3>Account</h3>
+                                </div>
+                                <div class="mb-3 mt-4 text-center">
+                                    <p class="p-4" id="membershipExpiration">Membership Expires: </p>
+                                </div>
+                                <div class="row mt-4 p-4">
+                                    <div class="col-lg text-center mb-3">
+                                        <h4><a href="faqpage.html" style="text-decoration: none;">FAQ</a></h4>
+                                    </div>
+                                    <div class="col-lg text-center mb-3">
+                                        <h4><a style="text-decoration: none;" href="supportpage.html">Support</a></h4>
+                                    </div>
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+
+            <script src="js/appmain.js"></script>
+        </body>
+
+</html>

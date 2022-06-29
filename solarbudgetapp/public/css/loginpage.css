@@ -1,0 +1,18 @@
+#col-left{
+    background-image: url("../assets/planetgif.gif");
+    background-repeat: no-repeat;
+    background-size:20%;
+    background-attachment: relative;
+    background-position: 80%;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+ul {
+    list-style-position: inside;
+  }
+ul li{
+    padding: 4px;
+}

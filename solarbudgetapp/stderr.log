@@ -1,0 +1,949 @@
+(node:3208010) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3208010) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:3208010) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3208010) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3208010) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:3208010) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3208010) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:3208010) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3208010) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:3208010) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3208010) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+(node:3208010) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3208010) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+(node:3208010) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3208010) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 14)
+(node:3374853) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3374853) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:3374853) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3457485) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3457485) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:3457485) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3463114) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3463114) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:3463114) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3465392) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3465392) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:3465392) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3465392) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3465392) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:3465392) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3465392) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:3465392) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3465392) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:3677169) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 14)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 16)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 18)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 20)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 22)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 24)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 26)
+(node:3677169) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3677169) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 28)
+(node:3856172) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3856172) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:3856172) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3954672) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3954672) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:3954672) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3954672) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3954672) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:3954672) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3954672) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:186040) UnhandledPromiseRejectionWarning: MongoServerSelectionError: connection <monitor> to 18.233.227.142:27017 closed
+    at Timeout._onTimeout (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sdam/topology.js:325:38)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:186040) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:186040) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:329085) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:329085) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:329085) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:329085) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:329085) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:329085) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:329085) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:329085) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:329085) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:329085) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:329085) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+(node:329085) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:329085) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+(node:3861390) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3861390) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:3861390) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3861390) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3861390) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:3861390) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3861390) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:3861390) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3861390) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:3861390) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:3861390) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+(node:3861390) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:3861390) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+(node:945722) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:945722) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:945722) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:945722) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:945722) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:945722) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:945722) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:1073692) UnhandledPromiseRejectionWarning: Error: error:02016002:system library:stat:No such file or directory
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1073692) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:1073692) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:1073692) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1073692) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:1076786) UnhandledPromiseRejectionWarning: Error: error:02016002:system library:stat:No such file or directory
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1076786) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:1076786) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:1076786) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1076786) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:1076786) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1076786) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:1076786) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:1076786) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:1076786) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:1076786) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:1163725) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 11)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 13)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 15)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 17)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 19)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 21)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 23)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 25)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 27)
+(node:1163725) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:1163725) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 29)
+(node:1514395) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1514395) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:1514395) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:1514395) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:1514395) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:1514395) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:66:12
+    at new Promise (<anonymous>)
+    at decryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:63:10)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:188:17
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/cursor/abstract_cursor.js:477:68
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/utils.js:532:9
+    at completeEndSession (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:147:17)
+    at /home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/mongodb/lib/sessions.js:157:13
+(node:1514395) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:1514395) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1514395) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:1514395) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1514395) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+(node:1514395) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1514395) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+(node:1514395) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1514395) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 14)
+(node:1514395) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1514395) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 16)
+(node:1514395) UnhandledPromiseRejectionWarning: Error: error:3407B06F:KDF routines:kdf_scrypt_derive:missing salt
+    at Object.scrypt (internal/crypto/scrypt.js:47:15)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:49:12
+    at new Promise (<anonymous>)
+    at encryptText (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:48:10)
+    at findUserByEmail (/home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:141:17)
+    at /home/solahsbd/repositories/Solar-Budget/solarbudgetapp/app.js:138:9
+    at Layer.handle [as handle_request] (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/express/lib/router/route.js:137:13)
+    at Array.<anonymous> (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/multer/lib/make-middleware.js:53:37)
+    at listener (/home/solahsbd/nodevenv/repositories/Solar-Budget/solarbudgetapp/14/lib/node_modules/on-finished/index.js:169:15)
+(node:1514395) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 18)
